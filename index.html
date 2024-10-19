@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>формы</title>
+    <style>
+        form {
+            width: 50%;
+            background-color: cyan;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<form action="">
+    <h3>зарегалс быстро</h3>
+    <fieldset>
+
+        <legend> регистрационные данные</legend>введите логин и пароль <input type="" placeholder="ваш логин"
+            name="login" required> <br> <br>
+        введите пароль и купите мне бургер <input type="password" placeholder="ваш пароль хочу бургер" name="pass"
+            required>
+        <br> <br>
+        введите почту <input type="email" name="email" required>
+        <input type="submit" value="отправить"> <br> <br>
+        ввведите дату рождения <input type="date" name="" id=""> <br> <br>
+    </fieldset>
+    <fieldset>
+        <legend>ваши интересы</legend>
+        введите логин и пароль <input type="" placeholder="ваш логин" name="login" required> <br> <br>
+        введите пароль и купите мне бургер <input type="password" placeholder="ваш пароль хочу бургер" name="pass"
+            required>
+        <br> <br>
+        введите почту <input type="email" name="email" required>
+        <input type="submit" value="отправить"> <br> <br>
+        ввведите дату рождения <input type="date" name="" id=""> <br> <br>
+        ваши интересы <br>
+        <input type="checkbox" name="интересс" id="minecraft"> <label for="minecraft"> майнкрафт</label> <br>
+        <label>
+            <input type="checkbox" name="интересс" checked>програмирование
+        </label> <br>
+    </fieldset>
+
+    <input type="submit" value="отправить">
+<fieldset>
+    <legend>род деятельности</legend>
+    <label for="">
+    <input type="radio" name="aktiviti"> работаю
+    <input type="radio" name="aktiviti" >играю майнкрафт
+</label>
+
+</fieldset>
+<br>
+укажите город <br>
+<select name="city">
+    <option selected disabled>выберите город</option>
+    <option value="Тюмень">Тюмень</option>
+    <option value="петергубрг">петергубрг</option>
+</select>
+</form>
+</body>
+
+</html>
